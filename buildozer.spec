@@ -25,7 +25,8 @@ source.exclude_patterns = buildozer.spec,*.pyc,*.pyo,.git/*,bin/*,venv/*
 version = 0.1
 
 # (list) Application requirements
-requirements = python3,kivy==2.2.1,kivymd==1.1.1,sqlalchemy==2.0.23,pillow==10.1.0,python-dateutil==2.8.2,requests==2.31.0,plyer==2.1.0,sqlite3worker==1.1.7,psycopg2-binary==2.9.9
+# comma separated e.g. requirements = sqlite3,kivy
+requirements = python3,kivy==2.0.0,kivymd==0.104.2,sqlalchemy==1.4.46,pillow==9.5.0,python-dateutil==2.8.2,requests==2.28.2,plyer==2.1.0,sqlite3worker==1.1.7
 
 # (str) Presplash of the application
 #presplash.filename = %(source.dir)s/data/presplash.png
@@ -41,7 +42,7 @@ orientation = portrait
 fullscreen = 0
 
 # (int) Target Android API, should be as high as possible.
-android.api = 33
+android.api = 30
 
 # (int) Minimum API required
 android.minapi = 21
